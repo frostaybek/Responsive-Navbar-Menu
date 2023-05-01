@@ -1,0 +1,17 @@
+.h1{
+    font-size: 2rem;
+}
+
+.li{
+    margin: 1vw;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+#training .items .item{
+    border-right: 1px solid black;
+}
+
+#training .items .item:first-child{
+    border-left: 1px solid black;
+}

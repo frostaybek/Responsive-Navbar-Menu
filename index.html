@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar Menu</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css" media="(max-width:768px)">
+    <link rel="stylesheet" href="./mobile.css" media="(max-width:500px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <h1 class="h1">
+                    Ayaz Aybek
+                </h1>
+                <ul class="ul">
+                    <li id="#home" class="li"><a href="#">Home</a></li>
+                    <li id="news" class="li"><a href="#">Haberler</a></li>
+                    <li id="About" class="li"><a href="#">Hakkında</a></li>
+                    <li id="Contact" class="li"><a href="#">İletişim</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="home">
+        <img src="./img.jpg" alt="Me">
+        <div class="name">
+            <h2 class="heading-big">
+                Ayaz Aybek
+            </h2>
+            <p>Front End Developer - Founder of Frostagram</p>
+            <button class="btn">Sayfaya Git</button>
+        </div>
+        <hr class="hr">
+    </section>
+    <section id="training">
+        <h3 class="h3">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <h3>Sınıf içi Eğitimler</h3>
+                <p class="h3-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, nulla.</p>
+            </article>
+            <article class="item">
+                <h3>Sınıf içi Eğitimler</h3>
+                <p class="h3-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, nulla.</p>
+            </article>
+            <article class="item">
+                <h3>Sınıf içi Eğitimler</h3>
+                <p class="h3-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, nulla.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="h3-mid">Kurslar</h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="img.jpg" alt="Python" />
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="description">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="instructor">
+                            Mustafa Murat Coşkun
+                        </div>
+                        <div class="rating">
+                            4.6 | 10000 Oylama
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="img.jpg" alt="Python" />
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="description">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="instructor">
+                            Mustafa Murat Coşkun
+                        </div>
+                        <div class="rating">
+                            4.6 | 10000 Oylama
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="img.jpg" alt="Python" />
+                        <span>%90 Indirim</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="description">
+                            40 Saat Web Geliştirme
+                        </div>
+                        <div class="instructor">
+                            Mustafa Murat Coşkun
+                        </div>
+                        <div class="rating">
+                            4.6 | 10000 Oylama
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <footer id="contact">
+            <div class="contact-form">
+                <form action="#">
+                    <h4 class="footer-h4">
+                        Bana Ulaşin
+                    </h4>
+                    <div class="form-group">
+                        <label for="name">Isim</label>
+                        <input type="text" 
+                        class="form-control" 
+                        name="name" 
+                        id="name" 
+                        placeholder="Isim">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Isim</label>
+                        <input type="text" 
+                        class="form-control" 
+                        name="email" 
+                        id="email" 
+                        placeholder="E-Mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Isim</label>
+                        <textarea name="message" 
+                        id="message" 
+                        class="form-control"
+                        rows="5"
+                        placeholder="Mesajiniz.."></textarea>
+                    </div>
+                    <button type="submit" class="footer-btn">
+                        Gönder
+                    </button>
+                </form>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+</body>
+</html>

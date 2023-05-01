@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.navbar{
+    background: rgb(18, 62, 124);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.h1{
+    font-size: 2.1rem;
+    display: inline-block;
+    color: orange;
+    margin: 2rem;
+}
+
+.ul{
+    display: flex;
+    color: white;
+}
+
+.li{
+    margin: 2rem;
+    list-style-type: none;
+    font-size: 1.4rem;
+    transition: all ease 0.4s;
+}
+
+ul li:hover{
+    background: rgb(255, 132, 0);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    display: block;
+    padding-top: 40px;
+}
+
+section img{
+    width: 244px;
+    border-radius: 100%;
+    user-select: none;
+    margin: 0 auto;
+    display: block;
+}
+
+.name{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.heading-big{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 16px;
+}
+
+div p:not(.h3-p){
+    text-align: center;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    width: 142px;
+    height: 44px;
+    font-size: 22px;
+    margin-top: 22px;
+    outline: none;
+    border: none;
+    background: rgb(0, 179, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    background: rgb(13, 139, 193);
+}
+
+.btn:active{
+    background: rgb(14, 116, 159);
+}
+
+.hr{
+    margin-top: 22px;
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, red, blue);
+}
+
+.h3{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+
+#training{
+    background: rgb(14, 106, 167);
+    color: #fff;
+    padding: 1rem;
+}
+
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.h3-p{
+    margin: 22px;
+    font-size: 18px;
+}
+
+/* Courses */
+
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.course img{
+    width: 90px;
+}
+
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .course-image img{
+    border-radius: 5px;
+}
+
+.courses .course .course-image span{
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.courses .course .course-info .description{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.courses .course .course-info .instructor{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+.courses .course .course-info .rating{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+/* Footer */
+
+.form-group{
+    padding: 0.25rem 0;
+}
+
+.form-group label{
+    display: block;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    background: rgb(21, 75, 223);
+}
+
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact{
+    color: #fff;
+    padding: 1rem;
+    background: rgb(255, 47, 0);
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover{
+    opacity: 0.6;
+}

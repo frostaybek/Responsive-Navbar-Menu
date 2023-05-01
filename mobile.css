@@ -1,0 +1,35 @@
+.h1{
+    font-size: 24px;
+}
+
+.li{
+    margin: 0.3rem;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+#training .items{
+    display: flex;
+    flex-direction: column;
+}
+
+#training .items .item{
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+#training .items .item:last-child{
+    border-bottom: 1px solid black;
+}
+
+#training .items .item:first-child{
+    border-left: none;
+}
+
+#training .items .item{
+    border-right: none;
+}
+
+.courses .course{
+    flex-direction: row;
+}
